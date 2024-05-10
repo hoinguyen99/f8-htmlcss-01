@@ -51,15 +51,26 @@ a {
     justify-content: center;
 }
 /* header */
-.header {
+.fixed-header{
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+/* hero-wrap */
+.hero-wrap {
+    display: flex;
     background: #e6f0ff;
     height: 100vh;
     position: relative;
+    flex-direction: column;
 }
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 15px 0;
 }
 .navbar ul {
     display: flex;
