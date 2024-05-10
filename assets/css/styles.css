@@ -62,7 +62,7 @@ a {
 .hero-wrap {
     display: flex;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 96px );   
     position: relative;
     flex-direction: column;
 }
