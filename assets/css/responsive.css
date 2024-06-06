@@ -3,8 +3,12 @@
 }
 /* tablet & mobile */
 @media screen and (max-width: 991.98px) {
+    .hoidzai{
+        display: block;
+    }
     .navbar {
         position: relative;
+        
     }
     .navbar ul {
         display: none;
@@ -44,9 +48,11 @@
         z-index: 2;
         transform: translateX(-100%);
     }
+    
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
 }
 /* mobile */
 @media screen and (max-width: 767.98px) {
